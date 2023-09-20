@@ -1,11 +1,24 @@
 export default function Home() {
   return (
-    <div className="container flex items-center p-4 mx-auto min-h-screen justify-center">
-      <main>
-        <h1 className="font-mono text-xl code">
-          Welcome to <span className="text-purple-700">Nextjs</span>, <span className="text-indigo-700">TailwindCSS</span> and <span className="text-gray-700">TypeScript</span>
-        </h1>
-      </main>
+    <div className="">
+      <div className="hero">
+        <nav className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+          <div className="">
+            <img src="nav/navIcon.png" alt="" className="h-87 w-115" />
+          </div>
+          <div>
+            <ul className="flex">
+              <li>Home</li>
+              <li>About Us</li>
+              <li>Gallery</li>
+              <li>Executives</li>
+              <li>Contact</li>
+            </ul>
+          </div>
+        </nav>
+        <h3>Green Explore Society</h3>
+        <button>Explore</button>
+      </div>
     </div>
-  )
+  );
 }
