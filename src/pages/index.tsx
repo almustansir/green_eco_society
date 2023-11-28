@@ -1,8 +1,63 @@
 export default function Home() {
   return (
     <div className="">
-      <div className="hero">
-        <nav className="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div
+        className="hero bg-scroll"
+        style={{
+          backgroundImage: `url('/homeHeroBg.png')`,
+          height: "972px",
+        }}
+      >
+        {/* 1. add hero image */}
+        {/* 2. align navbar */}
+        {/* 3. add hero content */}
+        {/* 4. design hero section */}
+        <nav className="">
+          <div className="">
+            <a href="#" className="">
+              <img
+                src="nav/navIcon.png"
+                className="h-8 mr-3"
+                alt="Flowbite Logo"
+              />
+            </a>
+            <div className="" id="navbar-sticky">
+              <ul className="s">
+                <li>
+                  <a href="#" className="" aria-current="page">
+                    Home
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="">
+                    About Us
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="">
+                    Gallery
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="">
+                    Executives
+                  </a>
+                </li>
+                <li>
+                  <a href="#" className="">
+                    Contact
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+
+        <h3 className="">Green Explore Society</h3>
+        <button>Explore</button>
+      </div>
+      {/* <div className="hero">
+        <nav className="bg-black-500 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
           <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
             <a href="#" className="flex items-center">
               <img
@@ -45,7 +100,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-0 md:dark:text-blue-500"
+                    className="block py-2 pl-3 pr-4 text-white bg-blue-700 rounded md:bg-transparent md:text-blue-700 md:p-3 md:dark:text-blue-500"
                     aria-current="page"
                   >
                     Home
@@ -54,7 +109,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-3 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     About Us
                   </a>
@@ -62,7 +117,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-3 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Gallery
                   </a>
@@ -70,7 +125,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-3 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Executives
                   </a>
@@ -78,7 +133,7 @@ export default function Home() {
                 <li>
                   <a
                     href="#"
-                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
+                    className="block py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-3 md:dark:hover:text-blue-500 dark:text-white dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                   >
                     Contact
                   </a>
@@ -90,7 +145,7 @@ export default function Home() {
 
         <h3 className="mt-[75px]">Green Explore Society</h3>
         <button>Explore</button>
-      </div>
+      </div> */}
     </div>
   );
 }
