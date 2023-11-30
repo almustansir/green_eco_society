@@ -63,16 +63,33 @@ export default function Home() {
           </button>
         </div>
       </div>
-      <div className="">
+      <div className="mx-[200px] mt-[75px]">
         {/* About our Journey Section */}
-        <h4>About our journey</h4>
-        <p>
+        <h4 className="text-center text-[#466042] text-5xl font-bold">
+          About our journey
+        </h4>
+        <p className="mt-[35px] text-left text-xl">
           Lorem ipsum dolor sit amet consectetur. Diam sem faucibus consequat
           amet pharetra sed. Vestibulum orci dignissim pellentesque amet. Sit
           enim mattis eu pretium blandit lectus viverra elementum. Urna varius
           porta mauris risus nec. Tempor urna consectetur sed massa aenean
           consectetur. Nulla neque lorem quam diam viverra......
         </p>
+        <div className="mt-[35px] flex items-center justify-center">
+          <img
+            src="homeImg1.png"
+            className="h-[780px] w-[1542px]"
+            alt="About us Image"
+          />
+        </div>
+        <div className="flex items-center justify-center">
+          <button
+            type="button"
+            className="mt-[50px] text-black hover:text-white bg-[#BAE6B2] border border-[#BAE6B2] hover:bg-black font-medium rounded-xl text-sm px-10 py-2.5 text-center me-2 mb-2"
+          >
+            Gallery
+          </button>
+        </div>
       </div>
     </div>
   );
