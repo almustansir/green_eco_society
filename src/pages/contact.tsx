@@ -11,7 +11,7 @@ export default function Home() {
         {/* Hero section */}
         <nav className="bg-neutral-950 bg-opacity-40">
           <div className="w-[100%] flex justify-between p-3">
-            <a href="#" className="">
+            <a href="/" className="">
               <img
                 src="nav/navIcon.png"
                 className="h-[60px]"
