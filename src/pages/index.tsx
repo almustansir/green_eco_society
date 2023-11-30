@@ -9,7 +9,6 @@ export default function Home() {
         }}
       >
         {/* Hero section */}
-        {/* 4. design hero section */}
         <nav className="bg-neutral-950 bg-opacity-40">
           <div className="w-[100%] flex justify-between p-3">
             <a href="#" className="">
@@ -63,6 +62,7 @@ export default function Home() {
           </button>
         </div>
       </div>
+
       <div className="mx-[200px] mt-[75px]">
         {/* About our Journey Section */}
         <h4 className="text-center text-[#466042] text-5xl font-bold">
@@ -91,6 +91,35 @@ export default function Home() {
           </button>
         </div>
       </div>
+
+      <div className="mx-[200px] mt-[85px]">
+        {/* About Us section */}
+        <h4 className="text-center text-[#52734D] text-5xl font-bold">
+          About Us
+        </h4>
+        <div className=" flex justify-between mt-[70px]">
+          <img
+            src="mainIcon.png"
+            className="h-[500px] m-0"
+            alt="Flowbite Logo"
+          />
+          <div className=" mt-20">
+            <p className=" text-left text-[#7895CB] text-xl">
+              Lorem ipsum dolor sit amet consectetur. Erat convallis vitae
+              dictum iaculis feugiat nisl justo. Vitae blandit pretium mauris
+              pulvinar.
+            </p>
+            <p className=" mt-[30px] text-left text-xl">
+              Lorem ipsum dolor sit amet consectetur. Morbi interdum neque
+              consequat porttitor. Egestas volutpat adipiscing et augue mauris
+              augue quam. Faucibus id pulvinar morbi et viverra malesuada auctor
+              vel. Est at diam diam a.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div>{/* footer section */}</div>
     </div>
   );
 }
