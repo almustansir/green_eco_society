@@ -21,27 +21,27 @@ export default function Home() {
             <div className="" id="navbar-sticky">
               <ul className="flex justify-between">
                 <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="#" className="" aria-current="page">
+                  <a href="/" className="" aria-current="page">
                     Home
                   </a>
                 </li>
                 <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="#" className="">
+                  <a href="/aboutUs" className="">
                     About Us
                   </a>
                 </li>
                 <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="#" className="">
+                  <a href="/gallery" className="">
                     Gallery
                   </a>
                 </li>
                 <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="#" className="">
+                  <a href="/excicutives" className="">
                     Executives
                   </a>
                 </li>
                 <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="#" className="">
+                  <a href="/contact" className="">
                     Contact
                   </a>
                 </li>
