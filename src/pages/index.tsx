@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="">
+    <div className="font-main">
       <div
         className="hero bg-scroll text-white"
         style={{
@@ -50,7 +50,7 @@ export default function Home() {
           </div>
         </nav>
 
-        <h3 className="text-center mt-[300px] text-8xl">
+        <h3 className=" text-center mt-[300px] text-8xl">
           Green Explore Society
         </h3>
         <div className="flex items-center justify-center">

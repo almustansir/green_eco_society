@@ -1,6 +1,6 @@
 export default function Home() {
   return (
-    <div className="">
+    <div className="font-main">
       <div
         className="hero bg-scroll text-white"
         style={{
