@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        main: ["Gupter", "serif"],
+        main: ["Poppins", "sans-serif"],
       },
     },
   },
