@@ -1,3 +1,4 @@
+import FooterComp from "../Components/FooterComp";
 import NavComp from "../Components/NavComp";
 
 export default function Home() {
@@ -6,25 +7,327 @@ export default function Home() {
       <div
         className="hero bg-scroll text-white"
         style={{
-          backgroundImage: `url('/homeHeroBg.png')`,
-          height: "772px",
+          backgroundImage: `url('/excucutivesCover.png')`,
+          height: "650px",
         }}
       >
         {/* Hero section */}
         <NavComp />
 
-        <h3 className="text-center mt-[300px] text-8xl">
-          Green Explore Society || Excucutives
-        </h3>
-        <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="mt-[130px] text-white hover:text-white border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-xl text-sm px-7 py-2.5 text-center me-2 mb-2 dark:border-border-yellow-50 dark:text-white dark:hover:text-black dark:hover:bg-white dark:focus:ring-white"
-          >
-            Explore
-          </button>
+        <h3 className="text-center mt-[200px] text-8xl">Excucutives</h3>
+      </div>
+
+      <div className="mx-[200px] mt-[75px]">
+        {/* Advisers */}
+        <h4 className="mt-10 text-center text-4xl font-bold text-[#466042]">
+          Advisers
+        </h4>
+        <div className="mt-10 flex">
+          {/* test */}
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+        </div>
+        {/* Members */}
+        <h4 className="mt-10 text-center text-4xl font-bold text-[#466042]">
+          Our Members
+        </h4>
+        <div className="mt-10 flex">
+          {/* test */}
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10 flex">
+          {/* test */}
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+        </div>
+        {/* Founding members */}
+        <h4 className="mt-10 text-center text-4xl font-bold text-[#466042]">
+          Founding Members
+        </h4>
+        <div className="mt-10 flex">
+          {/* test */}
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+        </div>
+        <div className="mt-10 flex">
+          {/* test */}
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
+          <div className="w-full max-w-sm bg-white ">
+            <div className="flex flex-col items-center py-5">
+              {/* 500px/500px images only */}
+              <img
+                className="h-64 w-64 mb-3 rounded-full shadow-lg"
+                src="/members/test1.jpg"
+                alt="Member Image"
+              />
+              <h5 className="mb-1 text-2xl font-medium">Zisan</h5>
+              <span className="text-l text-gray-500 dark:text-gray-400">
+                Zisan
+              </span>
+            </div>
+          </div>
         </div>
       </div>
+
+      <FooterComp />
     </div>
   );
 }
