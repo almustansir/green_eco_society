@@ -1,3 +1,6 @@
+import FooterComp from "../Components/FooterComp";
+import NavComp from "../Components/NavComp";
+
 export default function Home() {
   return (
     <div className="font-main">
@@ -9,46 +12,7 @@ export default function Home() {
         }}
       >
         {/* Hero section */}
-        <nav className="bg-neutral-950 bg-opacity-40">
-          <div className="w-[100%] flex justify-between p-3">
-            <a href="/" className="">
-              <img
-                src="nav/navIcon.png"
-                className="h-[60px]"
-                alt="Flowbite Logo"
-              />
-            </a>
-            <div className="" id="navbar-sticky">
-              <ul className="flex justify-between">
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/" className="" aria-current="page">
-                    Home
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/aboutUs" className="">
-                    About Us
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/gallery" className="">
-                    Gallery
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/excicutives" className="">
-                    Executives
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/contact" className="">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <NavComp />
 
         <h3 className=" text-center mt-[300px] text-8xl">
           Green Explore Society
@@ -119,74 +83,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className=" bg-[#C7CBB2] pt-10">
-        {/* footer section */}
-        <div className=" flex">
-          <img
-            src="footer/footerTop1.png"
-            className="h-[60px] mx-10"
-            alt="Flowbite Logo"
-          />
-          <img
-            src="footer/footerTop2.png"
-            className="h-[60px]"
-            alt="Flowbite Logo"
-          />
-        </div>
-        <div className=" flex px-[250px] mt-10">
-          <div className=" pr-20">
-            <h3 className=" text-center text-[#283825] text-xl font-bold">
-              About Us
-            </h3>
-            <p className=" pt-5">
-              Lorem ipsum dolor sit amet consectetur. Faucibus sit rutrum
-              pellentesque orci tortor diam ac. Sit elit maecenas consectetur
-              vel nunc viverra facilisi mattis. Lorem ipsum dolor sit amet
-              consectetur. Faucibus sit rutrum pellentesque orci tortor diam ac.
-              Sit elit maecenas consectetur vel nunc viverra facilisi mattis.
-            </p>
-          </div>
-          <div className=" pl-20">
-            <h3 className=" text-center text-[#283825] text-xl font-bold">
-              Our Work
-            </h3>
-            <p className=" pt-5">
-              Lorem ipsum dolor sit amet consectetur. Faucibus sit rutrum
-              pellentesque orci tortor diam ac. Sit elit maecenas consectetur
-              vel nunc viverra facilisi mattis. Lorem ipsum dolor sit amet
-              consectetur. Faucibus sit rutrum pellentesque orci tortor diam ac.
-              Sit elit maecenas consectetur vel nunc viverra facilisi mattis.
-            </p>
-          </div>
-        </div>
-        <div className=" mt-10">
-          <h3 className=" text-center text-[#283825] text-xl font-bold">
-            Contact Us
-          </h3>
-          <div className=" flex justify-center px-[250px] mt-10 pb-8">
-            <img
-              src="footer/fbIcon.png"
-              className="h-[35px] mr-8 hover:cursor-pointer"
-              alt="Flowbite Logo"
-            />
-            <img
-              src="footer/emailIcon.png"
-              className="w-[40px] hover:cursor-pointer"
-              alt="Flowbite Logo"
-            />
-            <img
-              src="footer/instraIcon.png"
-              className="h-[35px] mx-8 hover:cursor-pointer"
-              alt="Flowbite Logo"
-            />
-            <img
-              src="footer/callIcon.png"
-              className="h-[30px] hover:cursor-pointer"
-              alt="Flowbite Logo"
-            />
-          </div>
-        </div>
-      </div>
+      <FooterComp />
     </div>
   );
 }

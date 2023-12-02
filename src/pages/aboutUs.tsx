@@ -1,3 +1,6 @@
+import FooterComp from "../Components/FooterComp";
+import NavComp from "../Components/NavComp";
+
 export default function Home() {
   return (
     <div className="font-main">
@@ -9,56 +12,9 @@ export default function Home() {
         }}
       >
         {/* Hero section */}
-        <nav className="bg-neutral-950 bg-opacity-40">
-          <div className="w-[100%] flex justify-between p-3">
-            <a href="/" className="">
-              <img
-                src="nav/navIcon.png"
-                className="h-[60px]"
-                alt="Flowbite Logo"
-              />
-            </a>
-            <div className="" id="navbar-sticky">
-              <ul className="flex justify-between">
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/" className="" aria-current="page">
-                    Home
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/aboutUs" className="">
-                    About Us
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/gallery" className="">
-                    Gallery
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/excicutives" className="">
-                    Executives
-                  </a>
-                </li>
-                <li className="p-4 hover:bg-slate-900 rounded-lg">
-                  <a href="/contact" className="">
-                    Contact
-                  </a>
-                </li>
-              </ul>
-            </div>
-          </div>
-        </nav>
+        <NavComp />
 
-        <h3 className="text-center mt-[150px] text-8xl">About Us</h3>
-        <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="mt-[130px] text-white hover:text-white border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-xl text-sm px-7 py-2.5 text-center me-2 mb-2 dark:border-border-yellow-50 dark:text-white dark:hover:text-black dark:hover:bg-white dark:focus:ring-white"
-          >
-            Explore
-          </button>
-        </div>
+        <h3 className="text-center mt-[200px] text-8xl">About Us</h3>
       </div>
 
       <div className="mx-[200px] mt-[75px]">
@@ -115,18 +71,19 @@ export default function Home() {
         <div className="flex justify-between mt-10">
           <div className="w-[500px]">
             <img src="/event1.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 1</h4>
+            <h4 className="text-center mt-4 text-2xl">Work 1</h4>
           </div>
           <div className="w-[500px] mx-10">
             <img src="/event2.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 2</h4>
+            <h4 className="text-center mt-4 text-2xl">Work 2</h4>
           </div>
           <div className="w-[500px]">
             <img src="/event3.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 3</h4>
+            <h4 className="text-center mt-4 text-2xl">Work 3</h4>
           </div>
         </div>
       </div>
+      <FooterComp />
     </div>
   );
 }
