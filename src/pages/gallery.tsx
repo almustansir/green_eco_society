@@ -1,3 +1,4 @@
+import FooterComp from "../Components/FooterComp";
 import NavComp from "../Components/NavComp";
 
 export default function Home() {
@@ -6,25 +7,75 @@ export default function Home() {
       <div
         className="hero bg-scroll text-white"
         style={{
-          backgroundImage: `url('/homeHeroBg.png')`,
-          height: "772px",
+          backgroundImage: `url('/galleryCover.png')`,
+          height: "650px",
         }}
       >
         {/* Hero section */}
         <NavComp />
 
-        <h3 className="text-center mt-[300px] text-8xl">
-          Green Explore Society || Gallery
+        <h3 className="text-center mt-[200px] text-8xl">Gallery</h3>
+      </div>
+
+      <div className="mt-[150px] flex items-center justify-center">
+        {/* groupImage section */}
+        <img
+          src="homeImg1.png"
+          className="h-[780px] w-[1542px]"
+          alt="About us Image"
+        />
+      </div>
+
+      <div className="mx-[200px] mt-[75px]">
+        {/* Works section */}
+        <h3 className="text-center mb-[75px] text-5xl font-bold text-[#466042]">
+          Our Work
         </h3>
-        <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="mt-[130px] text-white hover:text-white border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-xl text-sm px-7 py-2.5 text-center me-2 mb-2 dark:border-border-yellow-50 dark:text-white dark:hover:text-black dark:hover:bg-white dark:focus:ring-white"
-          >
-            Explore
-          </button>
+        <div className="flex justify-between mt-10">
+          <div className="w-[500px]">
+            <img src="/event1.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 1</h4>
+          </div>
+          <div className="w-[500px] mx-10">
+            <img src="/event2.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 2</h4>
+          </div>
+          <div className="w-[500px]">
+            <img src="/event3.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 3</h4>
+          </div>
+        </div>
+        <div className="flex justify-between mt-10">
+          <div className="w-[500px]">
+            <img src="/event1.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 1</h4>
+          </div>
+          <div className="w-[500px] mx-10">
+            <img src="/event2.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 2</h4>
+          </div>
+          <div className="w-[500px]">
+            <img src="/event3.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 3</h4>
+          </div>
+        </div>
+        <div className="flex justify-between mt-10">
+          <div className="w-[500px]">
+            <img src="/event1.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 1</h4>
+          </div>
+          <div className="w-[500px] mx-10">
+            <img src="/event2.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 2</h4>
+          </div>
+          <div className="w-[500px]">
+            <img src="/event3.png" className="h-[400px]" alt="event name" />
+            <h4 className="text-center mt-4 text-2xl">Work 3</h4>
+          </div>
         </div>
       </div>
+
+      <FooterComp />
     </div>
   );
 }

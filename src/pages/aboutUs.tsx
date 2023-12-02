@@ -64,7 +64,7 @@ export default function Home() {
       </div>
 
       <div className="mx-[200px] mt-[75px]">
-        {/* events section */}
+        {/* Works section */}
         <h3 className="text-center text-5xl font-bold text-[#466042]">
           Our Work
         </h3>
