@@ -1,3 +1,6 @@
+import ContactsForm from "../Components/ContactsForm";
+import ContactUsLinkComp from "../Components/ContactsLinkComp";
+import FooterComp from "../Components/FooterComp";
 import NavComp from "../Components/NavComp";
 
 export default function Home() {
@@ -6,25 +9,26 @@ export default function Home() {
       <div
         className="hero bg-scroll text-white"
         style={{
-          backgroundImage: `url('/homeHeroBg.png')`,
-          height: "772px",
+          backgroundImage: `url('/contactsCover.png')`,
+          height: "650px",
         }}
       >
         {/* Hero section */}
         <NavComp />
+        <h3 className="text-center mt-[200px] text-8xl">Contact Us</h3>
+      </div>
 
-        <h3 className="text-center mt-[300px] text-8xl">
-          Green Explore Society || Contact Us
+      <div className="mt-[100px] text-center mx-[200px]">
+        <h3 className="text-center text-5xl font-bold text-[#466042]">
+          Contacts
         </h3>
-        <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="mt-[130px] text-white hover:text-white border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-xl text-sm px-7 py-2.5 text-center me-2 mb-2 dark:border-border-yellow-50 dark:text-white dark:hover:text-black dark:hover:bg-white dark:focus:ring-white"
-          >
-            Explore
-          </button>
+        <div className=" w-[100%] flex justify-between">
+          <ContactUsLinkComp />
+          <ContactsForm />
         </div>
       </div>
+
+      <FooterComp />
     </div>
   );
 }
