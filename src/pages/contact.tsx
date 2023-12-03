@@ -1,7 +1,7 @@
-import ContactsForm from "../components/ContactsForm";
-import ContactUsLinkComp from "../components/ContactsLinkComp";
-import FooterComp from "../components/FooterComp";
-import NavComp from "../components/NavComp";
+import ContactsForm from "../Components/ContactsForm";
+import ContactUsLinkComp from "../Components/ContactsLinkComp";
+import FooterComp from "../Components/FooterComp";
+import NavComp from "../Components/NavComp";
 
 export default function Home() {
   return (
