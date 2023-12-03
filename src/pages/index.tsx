@@ -1,5 +1,5 @@
-import FooterComp from "../Components/FooterComp";
-import NavComp from "../Components/NavComp";
+import FooterComp from "../components/FooterComp";
+import NavComp from "../components/NavComp";
 
 export default function Home() {
   return (
@@ -59,7 +59,7 @@ export default function Home() {
       <div className="mx-[200px] mt-[85px]">
         {/* About Us section */}
         <h4 className="text-center text-[#52734D] text-5xl font-bold">
-          About Us
+          About GES
         </h4>
         <div className=" flex justify-between mt-[70px]">
           <img

@@ -1,5 +1,5 @@
-import FooterComp from "../Components/FooterComp";
-import NavComp from "../Components/NavComp";
+import FooterComp from "../components/FooterComp";
+import NavComp from "../components/NavComp";
 
 export default function Home() {
   return (
