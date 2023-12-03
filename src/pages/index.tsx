@@ -1,4 +1,5 @@
 import FooterComp from "../Components/FooterComp";
+import ImageCarousel from "../Components/ImageCarousel";
 import NavComp from "../Components/NavComp";
 
 export default function Home() {
@@ -39,13 +40,14 @@ export default function Home() {
           porta mauris risus nec. Tempor urna consectetur sed massa aenean
           consectetur. Nulla neque lorem quam diam viverra......
         </p>
-        <div className="mt-[35px] flex items-center justify-center">
+        {/* <div className="mt-[35px] flex items-center justify-center">
           <img
             src="homeImg1.png"
             className="h-[780px] w-[1542px]"
             alt="About us Image"
           />
-        </div>
+        </div> */}
+        <ImageCarousel />
         <div className="flex items-center justify-center">
           <button
             type="button"
@@ -82,6 +84,7 @@ export default function Home() {
           </div>
         </div>
       </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.2.0/flowbite.min.js"></script>
 
       <FooterComp />
     </div>

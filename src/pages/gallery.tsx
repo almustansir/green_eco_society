@@ -1,4 +1,5 @@
 import FooterComp from "../Components/FooterComp";
+import ImageCarousel from "../Components/ImageCarousel";
 import NavComp from "../Components/NavComp";
 
 export default function Home() {
@@ -17,13 +18,14 @@ export default function Home() {
         <h3 className="text-center mt-[200px] text-8xl">Gallery</h3>
       </div>
 
-      <div className="mt-[150px] flex items-center justify-center">
+      <div className="mt-[150px] mx-[200px] flex items-center justify-center">
         {/* groupImage section */}
-        <img
+        {/* <img
           src="homeImg1.png"
           className="h-[780px] w-[1542px]"
           alt="About us Image"
-        />
+        /> */}
+        <ImageCarousel />
       </div>
 
       <div className="mx-[200px] mt-[75px]">
