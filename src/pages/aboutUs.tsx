@@ -68,18 +68,51 @@ export default function Home() {
         <h3 className="text-center text-5xl font-bold text-[#466042]">
           Our Work
         </h3>
-        <div className="flex justify-between mt-10">
-          <div className="w-[500px]">
-            <img src="/event1.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Work 1</h4>
+        <div className=" flex justify-center">
+          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[150px] pb-8 mt-10 mr-10">
+            <img
+              src="event1.png"
+              alt="Event1"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
+              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
+              eum autem deserunt vel!
+            </div>
           </div>
-          <div className="w-[500px] mx-10">
-            <img src="/event2.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Work 2</h4>
+          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[125px] pb-8 mt-10 mr-10">
+            <img
+              src="event1.png"
+              alt="Event2"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
+              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
+              eum autem deserunt vel!
+            </div>
           </div>
-          <div className="w-[500px]">
-            <img src="/event3.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Work 3</h4>
+          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[125px] pb-8 mt-10 mr-10">
+            <img
+              src="event1.png"
+              alt="Event3"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
+              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
+              eum autem deserunt vel!
+            </div>
           </div>
         </div>
       </div>
