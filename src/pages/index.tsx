@@ -40,13 +40,6 @@ export default function Home() {
           porta mauris risus nec. Tempor urna consectetur sed massa aenean
           consectetur. Nulla neque lorem quam diam viverra......
         </p>
-        {/* <div className="mt-[35px] flex items-center justify-center">
-          <img
-            src="homeImg1.png"
-            className="h-[780px] w-[1542px]"
-            alt="About us Image"
-          />
-        </div> */}
         <ImageCarousel />
         <div className="flex items-center justify-center">
           <button
