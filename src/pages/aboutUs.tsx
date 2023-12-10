@@ -48,29 +48,8 @@ export default function Home() {
         <h3 className="text-center text-5xl font-bold text-[#466042]">
           Our Events
         </h3>
-        <div className="flex justify-between mt-10">
-          <div className="w-[500px]">
-            <img src="/event1.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 1</h4>
-          </div>
-          <div className="w-[500px] mx-10">
-            <img src="/event2.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 2</h4>
-          </div>
-          <div className="w-[500px]">
-            <img src="/event3.png" className="h-[400px]" alt="event name" />
-            <h4 className="text-center mt-4 text-2xl">Event 3</h4>
-          </div>
-        </div>
-      </div>
-
-      <div className="mx-[200px] mt-[75px]">
-        {/* Works section */}
-        <h3 className="text-center text-5xl font-bold text-[#466042]">
-          Our Work
-        </h3>
         <div className=" flex justify-center">
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px]">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px] hover:cursor-pointer">
             <img
               src="event1.png"
               alt="Event1"
@@ -84,7 +63,7 @@ export default function Home() {
               distinctio.
             </div>
           </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px]">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px] hover:cursor-pointer">
             <img
               src="event2.png"
               alt="Event2"
@@ -98,7 +77,58 @@ export default function Home() {
               distinctio.
             </div>
           </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px]">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px] hover:cursor-pointer">
+            <img
+              src="event3.png"
+              alt="Event3"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mx-[200px] mt-[75px]">
+        {/* Works section */}
+        <h3 className="text-center text-5xl font-bold text-[#466042]">
+          Our Work
+        </h3>
+        <div className=" flex justify-center">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px] hover:cursor-pointer">
+            <img
+              src="event1.png"
+              alt="Event1"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
+            </div>
+          </div>
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px] hover:cursor-pointer">
+            <img
+              src="event2.png"
+              alt="Event2"
+              className="absolute inset-0 h-full w-full object-cover"
+            />
+            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
+            </div>
+          </div>
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px] hover:cursor-pointer">
             <img
               src="event3.png"
               alt="Event3"
