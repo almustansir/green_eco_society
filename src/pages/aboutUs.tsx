@@ -1,3 +1,4 @@
+import Image from "next/image";
 import FooterComp from "../Components/FooterComp";
 import NavComp from "../Components/NavComp";
 
@@ -69,49 +70,46 @@ export default function Home() {
           Our Work
         </h3>
         <div className=" flex justify-center">
-          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[150px] pb-8 mt-10 mr-10">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px]">
             <img
               src="event1.png"
               alt="Event1"
               className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
-              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
-              eum autem deserunt vel!
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
             </div>
           </div>
-          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[125px] pb-8 mt-10 mr-10">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px]">
             <img
-              src="event1.png"
+              src="event2.png"
               alt="Event2"
               className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
-              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
-              eum autem deserunt vel!
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
             </div>
           </div>
-          <div className="relative h-[400px] isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[125px] pb-8 mt-10 mr-10">
+          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px]">
             <img
-              src="event1.png"
+              src="event3.png"
               alt="Event3"
               className="absolute inset-0 h-full w-full object-cover"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 mt-3 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-6 text-gray-300">
+            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
+            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae distinctio
-              quidem iste rem ullam, itaque velit corporis mollitia blanditiis
-              eum autem deserunt vel!
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio.
             </div>
           </div>
         </div>
