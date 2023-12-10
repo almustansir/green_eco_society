@@ -20,11 +20,6 @@ export default function Home() {
 
       <div className="mt-[150px] mx-[200px] flex items-center justify-center">
         {/* groupImage section */}
-        {/* <img
-          src="homeImg1.png"
-          className="h-[780px] w-[1542px]"
-          alt="About us Image"
-        /> */}
         <ImageCarousel />
       </div>
 
