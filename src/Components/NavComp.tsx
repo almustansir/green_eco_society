@@ -9,31 +9,21 @@ function NavComp() {
         </a>
         <div className="" id="navbar-sticky">
           <ul className="flex justify-between">
-            <li className="p-4 hover:bg-[#0f172a] rounded-lg">
-              <a href="/" className="" aria-current="page">
-                Home
-              </a>
-            </li>
-            <li className="p-4 hover:bg-[#0f172a] rounded-lg">
-              <a href="/aboutUs" className="">
-                About Us
-              </a>
-            </li>
-            <li className="p-4 hover:bg-[#0f172a] rounded-lg">
-              <a href="/gallery" className="">
-                Gallery
-              </a>
-            </li>
-            <li className="p-4 hover:bg-[#0f172a] rounded-lg">
-              <a href="/excicutives" className="">
-                Executives
-              </a>
-            </li>
-            <li className="p-4 hover:bg-[#0f172a] rounded-lg">
-              <a href="/contact" className="">
-                Contact
-              </a>
-            </li>
+            <a href="/" className="" aria-current="page">
+              <li className="p-4 hover:bg-[#0f172a] rounded-lg">Home</li>
+            </a>
+            <a href="/aboutUs" className="">
+              <li className="p-4 hover:bg-[#0f172a] rounded-lg">About Us</li>
+            </a>
+            <a href="/gallery" className="">
+              <li className="p-4 hover:bg-[#0f172a] rounded-lg">Gallery</li>
+            </a>
+            <a href="/excicutives" className="">
+              <li className="p-4 hover:bg-[#0f172a] rounded-lg">Executives</li>
+            </a>
+            <a href="/contact" className="">
+              <li className="p-4 hover:bg-[#0f172a] rounded-lg">Contact</li>
+            </a>
           </ul>
         </div>
       </div>
