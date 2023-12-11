@@ -9,7 +9,7 @@ export default function Home() {
       <div
         className="hero bg-scroll text-white"
         style={{
-          backgroundImage: `url('/contactsCover.png')`,
+          backgroundImage: `url('/ContactsCover.png')`,
           height: "650px",
         }}
       >
