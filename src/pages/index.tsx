@@ -19,6 +19,7 @@ export default function Home() {
           Green Explore Society
         </h3>
         <div className="flex items-center justify-center">
+          {/* update button to link to gallery page*/}
           <button
             type="button"
             className="mt-[130px] text-white hover:text-black border border-white hover:bg-white focus:ring-4 focus:outline-none focus:ring-white font-medium rounded-xl text-sm px-7 py-2.5 text-center me-2 mb-2 dark:hover:bg-white dark:focus:ring-white"
