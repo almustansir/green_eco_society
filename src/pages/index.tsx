@@ -19,7 +19,6 @@ export default function Home() {
           Green Explore Society
         </h3>
         <div className="flex items-center justify-center">
-          {/* update button to link to gallery page*/}
           <a href="/gallery">
             <button
               type="button"
