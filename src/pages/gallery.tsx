@@ -47,6 +47,7 @@ export default function Home() {
           {/* <ShowcaseImageComp image_link="/event1.png" /> */}
           <ShowcaseImageComp />
           <ShowcaseImageComp />
+          <ShowcaseImageComp />
         </div>
         <div className=" flex justify-center">
           <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px] hover:cursor-pointer">
