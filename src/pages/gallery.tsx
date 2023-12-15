@@ -68,7 +68,7 @@ export default function Home() {
             image="event3.png"
           />
           <ShowcaseImageComp
-            title="5th event"
+            title="6th event"
             description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
             impedit iusto obcaecati quos aliquid magnam repudiandae
             distinctio."
