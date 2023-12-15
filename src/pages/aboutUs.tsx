@@ -1,6 +1,7 @@
 import Image from "next/image";
 import FooterComp from "../Components/FooterComp";
 import NavComp from "../Components/NavComp";
+import ShowcaseImageComp from "../Components/ShowcaseImageComp";
 
 export default function Home() {
   return (
@@ -48,49 +49,28 @@ export default function Home() {
         <h3 className="text-center text-5xl font-bold text-[#466042]">
           Our Events
         </h3>
-        <div className=" flex justify-center">
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event1.png"
-              alt="Event1"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+        <div className=" flex justify-center gap-10">
+          <ShowcaseImageComp
+            title="First event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
               impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event2.png"
-              alt="Event2"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event3.png"
-              alt="Event3"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
+              distinctio."
+            image="event1.png"
+          />
+          <ShowcaseImageComp
+            title="Second event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event2.png"
+          />
+          <ShowcaseImageComp
+            title="Third event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event3.png"
+          />
         </div>
       </div>
 
@@ -99,49 +79,28 @@ export default function Home() {
         <h3 className="text-center text-5xl font-bold text-[#466042]">
           Our Work
         </h3>
-        <div className=" flex justify-center">
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 mr-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event1.png"
-              alt="Event1"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+        <div className=" flex justify-center gap-10">
+          <ShowcaseImageComp
+            title="First Work"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
               impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event2.png"
-              alt="Event2"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
-          <div className="relative isolate flex flex-col justify-end overflow-hidden rounded-2xl px-[5%] pb-8 mt-10 ml-10 h-[450px] hover:cursor-pointer">
-            <img
-              src="event3.png"
-              alt="Event3"
-              className="absolute inset-0 h-full w-full object-cover"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-gray-900 via-gray-900/40"></div>
-            <h3 className="z-10 text-3xl font-bold text-white">Event 1</h3>
-            <div className="z-10 gap-y-1 overflow-hidden text-sm leading-5 text-gray-300">
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
-              impedit iusto obcaecati quos aliquid magnam repudiandae
-              distinctio.
-            </div>
-          </div>
+              distinctio."
+            image="event1.png"
+          />
+          <ShowcaseImageComp
+            title="Second Work"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event2.png"
+          />
+          <ShowcaseImageComp
+            title="Third Work"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event3.png"
+          />
         </div>
       </div>
       <FooterComp />
