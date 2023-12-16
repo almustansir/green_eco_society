@@ -44,12 +44,14 @@ export default function Home() {
         </p>
         <ImageCarousel />
         <div className="flex items-center justify-center">
-          <button
-            type="button"
-            className="mt-[50px] text-black hover:text-white bg-[#BAE6B2] border border-[#BAE6B2] hover:bg-black font-medium rounded-xl text-sm px-10 py-2.5 text-center me-2 mb-2"
-          >
-            Gallery
-          </button>
+          <a href="/gallery">
+            <button
+              type="button"
+              className="mt-[50px] text-black hover:text-white bg-[#BAE6B2] border border-[#BAE6B2] hover:bg-black font-medium rounded-xl text-sm px-10 py-2.5 text-center me-2 mb-2"
+            >
+              Gallery
+            </button>
+          </a>
         </div>
       </div>
 
