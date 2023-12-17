@@ -34,7 +34,7 @@ function ContactUsLinkComp() {
           className="h-[35px] mr-8 hover:cursor-pointer"
           alt="Flowbite Logo"
         />
-        <h3>example@gmail.com</h3>
+        <h3>ges.sust@gmail.com</h3>
       </div>
 
       <div className="flex flex-col space-y-4">
