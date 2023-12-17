@@ -4,6 +4,7 @@ import { Carousel, IconButton } from "@material-tailwind/react";
 const ImageCarousel = () => {
   return (
     <Carousel
+      autoplay
       className="rounded-xl"
       prevArrow={({ handlePrev }) => (
         <IconButton
