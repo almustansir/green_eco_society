@@ -2,6 +2,7 @@ import React from "react";
 import { Carousel } from "@material-tailwind/react";
 
 const ImageCarousel = () => {
+  // Make Infinite image caracel
   return (
     <Carousel
       autoplay
@@ -28,6 +29,16 @@ const ImageCarousel = () => {
       <img
         src="homeImg1.png"
         alt="image 2"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="homeImg1.png"
+        alt="image 3"
+        className="h-full w-full object-cover"
+      />
+      <img
+        src="homeImg1.png"
+        alt="image 3"
         className="h-full w-full object-cover"
       />
       <img
