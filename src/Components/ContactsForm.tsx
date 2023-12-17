@@ -13,10 +13,19 @@ const ContactsForm = () => {
           <form action="#" className="space-y-8">
             <div>
               <input
-                type="email"
+                type="text"
                 id="email"
                 className="shadow-sm bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                 placeholder="Enter your name"
+                required
+              />
+            </div>
+            <div>
+              <input
+                type="email"
+                id="subject"
+                className="block p-3 w-full text-sm text-gray-900 bg-gray-50 rounded-lg border border-gray-300 shadow-sm focus:ring-primary-500 focus:border-primary-500"
+                placeholder="Email"
                 required
               />
             </div>
