@@ -3,6 +3,7 @@ import React from "react";
 const ContactsForm = () => {
   return (
     <div>
+      {/* Use 'NODEMAILER' to send email from contact component */}
       {/* contact forms */}
       <section className="">
         <div className="py-16 px-4 w-[500px]">
