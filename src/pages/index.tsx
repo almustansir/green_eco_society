@@ -1,6 +1,7 @@
 import FooterComp from "../Components/FooterComp";
 import ImageCarousel from "../Components/ImageCarousel";
 import NavComp from "../Components/NavComp";
+import ShowcaseImageComp from "../Components/ShowcaseImageComp";
 
 export default function Home() {
   return (
@@ -52,6 +53,36 @@ export default function Home() {
               Gallery
             </button>
           </a>
+        </div>
+      </div>
+
+      <div className="mx-[200px] mt-[75px]">
+        {/* events section */}
+        <h3 className="text-center text-5xl font-bold text-[#466042]">
+          Our Events
+        </h3>
+        <div className=" flex justify-center gap-10">
+          <ShowcaseImageComp
+            title="First event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+              impedit iusto obcaecati quos aliquid magnam repudiandae
+              distinctio."
+            image="event1.png"
+          />
+          <ShowcaseImageComp
+            title="Second event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event2.png"
+          />
+          <ShowcaseImageComp
+            title="Third event"
+            description="Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum
+            impedit iusto obcaecati quos aliquid magnam repudiandae
+            distinctio."
+            image="event3.png"
+          />
         </div>
       </div>
 
