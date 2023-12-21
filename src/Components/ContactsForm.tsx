@@ -3,8 +3,8 @@ import React from "react";
 const ContactsForm = () => {
   return (
     <div>
-      {/* Use 'NODEMAILER' to send email from contact component */}
       {/* contact forms */}
+      {/* Use 'NODEMAILER' to send email from contact component */}
       <section className="">
         <div className="py-16 px-4 w-[500px]">
           <h2 className="mb-4 text-3xl tracking-tight text-left text-gray-900">
