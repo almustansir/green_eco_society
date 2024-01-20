@@ -14,7 +14,7 @@ export default function Home() {
         {/* Hero section */}
         <NavComp />
 
-        <h3 className="text-center mt-[200px] text-8xl">Excucutives</h3>
+        <h3 className="text-center mt-[200px] text-8xl">Executives</h3>
       </div>
 
       <div className="mx-[200px] mt-[75px]">
